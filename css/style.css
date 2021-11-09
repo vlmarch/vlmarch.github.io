@@ -1,7 +1,48 @@
-html, body {
-  margin: 0;
-  padding: 0;
+@charset "utf-8";
+
+/* Variables */
+
+:root {
+    --background-color: white;
+    /* --font-family: Helvetica, Arial, sans-serif; */
+    --font-family: Consolas;
+    --font-color: black;
+    --color-gray: gray;
 }
+
+
+/* Reset */
+
+html,
+body {
+    margin: 0 auto 0 auto;
+    padding: 0 0 0 0;
+    font-style: none;
+    font-variant: none;
+    font-weight: none;
+    font-size: 100%;
+    line-height: normal;
+    font-family: none;
+    line-break: auto;
+    height:100%;
+    width: 800px;
+    max-height: 100%;
+    max-width: 800px;
+    background-color: var(--background-color);
+}
+
+
+/* Style */
+
+/* Typography */
+
+body {
+    background: none;
+    font-family: var(--font-family);
+    font-size: 1em;
+    color: var(--font-color);
+}
+
 canvas {
-  display: block;
+    display: block;
 }
