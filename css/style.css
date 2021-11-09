@@ -24,9 +24,9 @@ body {
     line-height: normal;
     font-family: none;
     line-break: auto;
-    height:100%;
+    height:95%;
     width: 800px;
-    max-height: 90%;
+    max-height: 95%;
     max-width: 800px;
     background-color: var(--background-color);
 }
