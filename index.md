@@ -8,7 +8,4 @@
 
 
 # Web
-
-  <body>
-    <script src="js/sketch.js"></script>
-  </body>
+<script src="js/sketch.js"></script>
