@@ -92,13 +92,13 @@ _ _ _
 
 [google-link]:https://www.google.com
 
-## Tables:
+<!-- ## Tables:
 
 |Letters|Numbers|Left alignment|Central alignment|Right alignment|
 |---|---|:---|:---:|---:|
 |a|1|0|0|0|
 |b|2|0|0|0|
-|c|3|0|0|0|
+|c|3|0|0|0| -->
 
 ## Footnotes:
 
