@@ -5,16 +5,16 @@ baseurl: ""
 url: "https://vlmarch.github.io"
 
 phone: ""
-email: "marchenkovkad@outlook.com"
+email: "vlmarch@protonmail.com"
 
-github_username: Vladyslav M
+github_username: vlmarch
 github_url: https://github.com/vlmarch
 
 linkedin_username: Vladyslav M
 linkedin_url: https://linkedin.com/in/vladyslav-m
 
-vimeo_username: ""
-vimeo_url: ""
+vimeo_username: "vlmarch"
+vimeo_url: "https://vimeo.com/vlmarch"
 
 theme: null
 markdown: kramdown

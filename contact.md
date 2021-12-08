@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Contact / Kontakt
+title: Contact
 
 ---
 
@@ -8,3 +8,9 @@ title: Contact / Kontakt
 
 
 Warsaw. Poland.
+
+## Social media
+
+- GitHub: [{{ site.github_username }]{{{ site.github_url }}}
+- LinkedIn: [{{ site.linkedin_username }}]({{ site.linkedin_url }})
+- Vimeo: [{{ site.vimeo_username }]({{ site.vimeo_url }})
