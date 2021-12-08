@@ -5,5 +5,5 @@ layout: default
 # excerpt: This is the greatest website on earth. Share! Like! Subscribe! I'm dead inside!
 ---
 
-# TEST
+# Work in Progress
 <script src="js/sketch.js"></script>
