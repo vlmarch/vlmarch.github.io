@@ -1,11 +1,9 @@
-<head>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js"></script> -->
-  <!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
-  <meta charset="utf-8" />
-
-</head>
+---
+layout: default
+# title: "Home Page"
+# fulltitle: "My New Website | Update Coming August 2004"
+# excerpt: This is the greatest website on earth. Share! Like! Subscribe! I'm dead inside!
+---
 
 # TEST
-
 <script src="js/sketch.js"></script>
