@@ -8,7 +8,7 @@ layout: default
 # Work in Progress
 
 [md-cheatsheet](https://vlmarch.github.io/md-cheatsheet)
-
-<script style="margin:auto;" src="js/sketch.js"></script>
-
+<figure style="margin:auto;">
+    <script src="js/sketch.js"></script>
+</figure>
 - - -
