@@ -9,4 +9,4 @@ layout: default
 
 [md-cheatsheet](https://vlmarch.github.io/md-cheatsheet)
 
-<script src="js/sketch.js"></script>
+<script style="margin:auto;" src="js/sketch.js"></script>
