@@ -1,9 +1,21 @@
 <!DOCTYPE html>
+<html lang="{{ site.lang | default: " en-US" }}" dir="ltr">
 
 {% include head.html %}
 
-<body>
-  {{ content }}
+<body id="wrapper">
+  {% include header.html %}
+
+  <div id="left-sidebar">
+    <nav id="nav-bar">
+      {% include menu.html %}
+    </nav>
+  </div>
+
+  <main id="content">
+    {{ content }}
+  </main>
+
 </body>
 
 </html>

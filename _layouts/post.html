@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<!-- WIP -->
+
+
+<article>
+  <div class="post-head">
+    <h2 class="post-title">{{ page.title | escape }}</h2>
+    <time datetime="{{ page.date | date_to_xmlschema }}">
+      {%- assign date_format = site.date_format -%}
+      {{ page.date | date: site.date_format }}
+    </time>
+  </div>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+</article>

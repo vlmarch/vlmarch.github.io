@@ -1,17 +1,66 @@
-theme: null
-title: Test Page
-description: Test Page
+title: vlmarch
+description: Vladyslav M. Webpage
 source: ./
-
-# Social
-github: ghusername
-
+baseurl: ""
+url: "https://vlmarch.github.io"
 
 phone: ""
-email: ""
+email: "marchenkovkad@outlook.com"
 
-# sass:
-#   sass_dir: css/_sass
+github_username: Vladyslav M
+github_url: https://github.com/vlmarch
 
+linkedin_username: Vladyslav M
+linkedin_url: https://linkedin.com/in/vladyslav-m
+
+vimeo_username: ""
+vimeo_url: ""
+
+theme: null
+markdown: kramdown
 exclude:
   - README.md
+
+
+
+# SETTINGS (WIP)
+date_format: "%Y"
+
+defaults:
+  -
+    scope:
+      type: "posts"
+    values:
+      layout: post
+      permalink: ./posts/:categories/:title
+
+  # -
+  #   scope:
+  #     path: "_posts/Accessories"
+  #   values:
+  #     categories: Accessories
+  # -
+  #   scope:
+  #     path: "_posts/Furniture"
+  #   values:
+  #     categories: Furniture
+  # -
+  #   scope:
+  #     path: "_posts/GraphicDesign"
+  #   values:
+  #     categories: GraphicDesign
+  # -
+  #   scope:
+  #     path: "_posts/ProductDesign"
+  #   values:
+  #     categories: ProductDesign
+  # -
+  #   scope:
+  #     path: "_posts/Scripts"
+  #   values:
+  #     categories: Scripts
+  # -
+  #   scope:
+  #     path: "_posts/StreetFurniture"
+  #   values:
+  #     categories: StreetFurniture

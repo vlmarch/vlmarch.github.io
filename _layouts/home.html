@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<!-- WIP -->
+
+<div class="home-container">
+    {%- for post in site.posts -%}
+    <div class="home-item">
+        {%- assign date_format = site.date_format -%}
+        <h2><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
+        <time datetime="{{ page.date | date_to_xmlschema }}">{{ post.date | date: date_format }}</time>
+        <div>
+            <a href="{{ post.url | relative_url }}"><img class="home-item-img"
+                    src="./assets/img/{{ post.front-img | relative_url }}" alt="{{ post.title }}"></img></a>
+        </div>
+        <!-- <small>{{ post.categories }}</small> -->
+    </div>
+    {%- endfor -%}
+</div>
