@@ -7,6 +7,6 @@ layout: default
 
 # Work in Progress
 
-[md-cheatsheet](vlmarch.github.io/md-cheatsheet)
+[md-cheatsheet](vlmarch.github.io/md-cheatsheet.html)
 
 <script src="js/sketch.js"></script>
