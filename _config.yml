@@ -10,8 +10,8 @@ github: ghusername
 phone: ""
 email: ""
 
-sass:
-  sass_dir: css/_sass
+# sass:
+#   sass_dir: css/_sass
 
 exclude:
   - README.md
