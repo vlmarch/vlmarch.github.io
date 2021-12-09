@@ -1,3 +1,10 @@
+/*
+ * 20211107
+ * Vladyslav M
+ * https://github.com/vlmarch
+ */
+
+
 let x, y, radius, segments, factor;
 
 function setup() {
