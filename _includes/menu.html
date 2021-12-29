@@ -1,14 +1,7 @@
-<!-- WIP -->
-
-<dl>
-  {%- assign default_paths = site.pages | map: "path" -%}
-  {%- assign page_paths = site.header_pages | default: default_paths -%}
-  {%- if page_paths -%}
-  {%- for path in page_paths -%}
-  {%- assign my_page = site.pages | where: "path", path | first -%}
-  {%- if my_page.title -%}
-  <li><a href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
-  {%- endif -%}
-  {%- endfor -%}
-  {%- endif -%}
-</dl>
+<nav id="nav-bar">
+  <a href="{{ site.baseurl }}/">Home</a>
+  <a href="{{ site.baseurl }}/about">About</a>
+  <a href="{{ site.baseurl }}/contact">Contact</a>
+  <a href="{{ site.baseurl }}/md-cheatsheet">_md</a>
+  <a href="{{ site.baseurl }}/test_page">_test</a>
+</nav>
