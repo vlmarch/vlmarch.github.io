@@ -5,6 +5,6 @@ title: Home
 # excerpt: This is the greatest website on earth. Share! Like! Subscribe! I'm dead inside!
 ---
 
-<div align="center">
+<div style="display: flex;justify-content: center;align-items: center;">
     <script style="margin:auto;" src="js/sketch.js"></script>
 </div>
