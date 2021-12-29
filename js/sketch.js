@@ -8,7 +8,7 @@
 let x, y, radius, segments, factor;
 
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(640, 400);
   x = width / 2;
   y = height / 2;
   radius = 175;
