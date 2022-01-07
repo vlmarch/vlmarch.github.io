@@ -6,4 +6,6 @@ title: Home
 ---
 
 # Work in Progress
-<script src="js/sketch.js"></script>
+<div>
+    <script src="js/sketch.js"></script>
+</div>
