@@ -21,6 +21,7 @@ markdown: kramdown
 exclude:
   - README.md
 
+date_format: "%Y"
 
 
 # SETTINGS (WIP)
