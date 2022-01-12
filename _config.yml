@@ -21,19 +21,18 @@ markdown: kramdown
 exclude:
   - README.md
 
+
+# SETTINGS
 date_format: "%Y"
 
 
-# SETTINGS (WIP)
-# date_format: "%Y"
-
-# defaults:
-#   -
-#     scope:
-#       type: "posts"
-#     values:
-#       layout: post
-#       permalink: ./posts/:categories/:title
+defaults:
+  -
+    scope:
+      type: "posts"
+    values:
+      layout: post
+      permalink: ./posts/:title
   # -
   #   scope:
   #     path: "_posts/Accessories"
