@@ -3,9 +3,14 @@
 
 {% include head.html %}
 
-<body id="wrapper">
-  {% include navbar.html %}
-  {{ content }}
+<body class="d-flex flex-column">
+
+  <div id="content">
+    {% include navbar.html %}
+      <div class="col-md-7">
+        {{ content }}
+      </div>
+  </div>
 
   {% include footer.html %}
 </body>
