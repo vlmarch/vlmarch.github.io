@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: 'en-US' }}" dir="ltr">
 
+
 {% include head.html %}
 
-<body class="d-flex flex-column">
+<body id="wrapper">
+  {% include header.html %}
+
+  <div id="left-sidebar">
+    {% include menu.html %}
+  </div>
 
   <div id="content">
-    {% include navbar.html %}
-      <div class="col-md-7">
-        {{ content }}
-      </div>
+    {{ content }}
   </div>
 
   {% include footer.html %}
+
 </body>
 </html>

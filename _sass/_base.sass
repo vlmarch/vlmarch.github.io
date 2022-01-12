@@ -1,0 +1,232 @@
+$background-color: white
+$font-family: Space Mono
+$font-color: #212121
+$color-gray: #616161
+
+// // Reset
+// html,
+// body
+//     margin: 0
+//     padding: 0
+//     font-style: none
+//     font-variant: none
+//     font-weight: none
+//     font-size: 100%
+//     line-height: normal
+//     font-family: none
+//     line-break: auto
+//     height: 100%
+//     width: 100%
+//     max-height: 100%
+//     max-width: 100%
+//     background-color: $background-color
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video
+    margin: 0
+    padding: 0
+    border: 0
+    font-size: 100%
+    /////////////////
+    font-style: none
+    font-variant: none
+    font-weight: none
+    line-height: 1 // none
+    font-family: none
+    line-break: auto
+    /////////////////
+    font: inherit
+    vertical-align: baseline
+    background-color: $background-color
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section
+    display: block
+
+// body
+//     line-height: 1
+
+ol, ul
+    list-style: none
+
+blockquote, q
+    quotes: none
+
+// blockquote:before, blockquote:after,
+// q:before, q:after
+//     content: ''
+//     content: none
+
+// table
+//     border-collapse: collapse
+//     border-spacing: 0
+
+// Style
+
+// Typography
+body
+    background: none
+    font-family: $font-family
+    font-size: 1em
+    color: $font-color
+
+h1, h2, h3, h4, h5, h6
+    position: relative
+    text-align: left
+    font-family: $font-family
+    font-weight: bold
+    color: $font-color
+
+h1
+    font-size: 1.6em
+    // text-transform: uppercase
+    padding: 5px 0 15px 0
+
+h2
+    font-size: 1.4em
+    // text-transform: uppercase
+    padding: 5px 0 12px 0
+
+h3
+    font-size: 1.2em
+    padding: 5px 0 12px 0
+
+h4, h5, h6
+    font-size: 1.1em
+    padding: 5px 0 5px 0
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a
+    text-decoration: none
+
+p
+    line-height: 110%
+    // text-align: justify
+    color: $font-color
+    padding: 5px 0 5px 0
+
+small
+    font-size: 0.7em
+    line-height: 0px
+    color: $font-color
+    padding: 5px 0 5px 0
+    // margin-top: 5px
+
+q
+    font-style: italic
+    color: $color-gray
+
+code
+    display: $font-color
+    white-space: pre-wrap
+    font-family: Menlo, Consolas, DejaVu Sans Mono, monospace
+    font-size: 0.8em
+    color: $color-gray
+
+blockquote
+    margin-bottom: 15px
+
+hr
+    border: none
+    background-color: $font-color
+    height: 2px
+
+// br
+//    content: "A" !important
+//    display: block !important
+//    margin-bottom: 0.1em !important
+
+
+// Canvas
+canvas
+    display: block
+    margin: auto
+
+
+// Links
+a
+    color: $font-color
+    opacity: 0.8
+    outline: none
+    // text-decoration: underline
+
+// a:visited
+//     color: $color-gray
+
+a:hover
+    color: $font-color
+    opacity: 0.5
+    text-decoration: underline
+
+a img
+    border: none
+    outline: none
+
+a,
+a:active,
+a img
+    outline: none
+
+h1, h2, h3, h4, h5, h6
+    a:visited
+        color: $font-color
+        text-decoration: none
+
+    a:hover
+        color: $font-color
+        opacity: 0.5
+        text-decoration: none
+
+    a:active
+        color: $font-color
+        opacity: 0.7
+        text-decoration: none
+
+// Lists
+
+dl, ul, ol
+    list-style-position: outside
+    padding-left: 15px
+    margin-left: 15px
+
+ul
+    list-style-type: circle
+
+ol li, ul li
+    margin-left: 35px
+    padding: 0px
+
+// Tables
+
+table
+    border-collapse: collapse
+    // border: 1px solid $font-color
+
+th
+    border-bottom: 2px solid $font-color
+    padding: 5px 20px 5px 20px
+
+td
+    border-top: 1px solid $color-gray
+    padding: 5px 20px 5px 20px
+
+// Buttons
+
+// button
+//    padding: 5px
+//    background-color: #000
+//    color: #fff
+//
+// button:hover
+//    background-color: #fff
+//    color: #000
