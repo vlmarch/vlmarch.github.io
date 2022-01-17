@@ -1,6 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/windows,macos,linux,ruby,jekyll
-# Edit at https://www.toptal.com/developers/gitignore?templates=windows,macos,linux,ruby,jekyll
+# Created by https://www.toptal.com/developers/gitignore/api/jekyll,ruby,windows,linux,macos
+# Edit at https://www.toptal.com/developers/gitignore?templates=jekyll,ruby,windows,linux,macos
 
 ### Jekyll ###
 _site/
@@ -138,4 +138,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/windows,macos,linux,ruby,jekyll
+# End of https://www.toptal.com/developers/gitignore/api/jekyll,ruby,windows,linux,macos
